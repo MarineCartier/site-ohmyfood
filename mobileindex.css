@@ -27,11 +27,45 @@ article.menu1{
 	text-align: center;
 }
 
+.fas.fa-music{
+	font-size: 40px;
+	background: -webkit-linear-gradient(left, #f05160, #f6916a);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+.police1{
+	font-family: 'Devonshire', cursive;
+	font-size: 22px;
+	color: #000000;
+}
+
+.police2{
+	font-family: 'Kalam', cursive;
+	font-size: 35px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
 article.menu2{
 	background-color: #fff5fe;
 	margin: 20px 50px 20px 50px;
 	padding: 150px 0px 150px 0px;
 	text-align: center;
+}
+
+.police3{
+	font-family: 'Croissant One', cursive;
+	background: -webkit-linear-gradient(left, #c67412, #a56799, #6e4ccc);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+.police4{
+	font-size: 40px;
+	font-family: 'PT Serif', serif;
+	color: #c67412;
 }
 
 article.menu3{
@@ -41,11 +75,39 @@ article.menu3{
 	text-align: center;
 }
 
+.police5{
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	background: -webkit-linear-gradient(left, #0228dd, #229df9);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+.police6{
+	font-family: 'Shadows Into Light', cursive;
+	color: #0670f3;
+	font-size: 40px;
+}
+
 article.menu4{
 	background-color: #fdfffd;
 	margin: 20px 50px 20px 50px;
 	padding: 150px 0px 150px 0px;
 	text-align: center;
+}
+
+.police7{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	background: -webkit-linear-gradient(left, #41963c, #b0f377);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+.police8{
+	font-family: 'Shadows Into Light', cursive;
+	color: #41963c;
+	font-size: 40px;
 }
 
 p.bouton{
