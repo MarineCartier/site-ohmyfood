@@ -1,0 +1,112 @@
+body{
+	margin: 10px;
+}
+
+header{
+	background-color: #579c87;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.logo{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1.titre{
+	text-align: center;
+}
+
+section.cadre{
+	background-color: #fcdfdb;
+	margin: 0px 20px 20px 20px;
+	padding: 20px 0px 10px 0px;
+	text-align: center;
+}
+
+.fas.fa-music{
+	font-size: 60px;
+	background: -webkit-linear-gradient(left, #f05160, #f6916a);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+h2.titre{
+	font-family: 'Devonshire', cursive;
+	font-size: 30px;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+li{
+	display: flex;
+	text-align: justify;
+	display: flex;
+	width: 100%;
+}
+
+p.plat{
+	width: 80%;
+}
+
+p.prix{
+	width: 20%;
+	text-align: right;
+}
+
+div.fin{
+	display: flex;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.titrefin{
+	font-family: 'Devonshire', cursive;
+	font-size: 30px;
+	width: 65%;
+	text-align: left;
+}
+
+div.fin.fas.fa-music{
+	width: 35%;
+	text-align: right;
+	font-size: 30px;
+}
+
+footer.pieddepage{
+	display: flex;
+	width: 100%;
+	font-size: 20px;
+	background: #579c87;
+	color: #fdcb46;
+}
+
+div.mentionslegales{
+	width: 50%;
+}
+
+p.mentionslegales{
+	margin-left: 10px;
+}
+
+div.mail{
+	width: 50%;
+	text-align: right;
+}
+
+p.mail{
+	margin-right: 10px;
+	color: #fdcb46; 
+}
