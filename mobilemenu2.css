@@ -1,5 +1,11 @@
+html{
+	height: 100%;
+}
+
 body{
 	margin: 10px;
+	padding: 0;
+	position: relative;
 }
 
 header{
@@ -16,16 +22,19 @@ img.logo{
 	height: 100px;
 }
 
+img.ligne{
+	width: 50%;
+}
+
 a{
 	text-decoration: none;
 }
 
-img{
-	width: 50%;
-}
-
 h1{
 	text-align: center;
+}
+
+h2{
 	font-family: 'Croissant One', cursive;
 	font-size: 30px;
 	background: -webkit-linear-gradient(left, #c67412, #6e4ccc);
@@ -33,12 +42,12 @@ h1{
   	-webkit-text-fill-color : transparent;
 }
 
-h2{
+h3{
 	font-family: 'Slabo 27px', serif;
 	font-size: 20px;
 }
 
-p{
+p.plat{
 	font-family: 'Slabo 27px', serif;
 }
 
@@ -77,6 +86,10 @@ footer.pieddepage{
 	font-size: 20px;
 	background: #579c87;
 	color: #fdcb46;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 div.mentionslegales{
@@ -96,3 +109,33 @@ p.mail{
 	margin-right: 10px;
 	color: #fdcb46; 
 }
+
+@media only screen and (min-width: 960px){
+
+	div.lignes{
+		display: flex;
+		width: 100%;
+	}
+
+	img.ligne{
+		width: 35%;
+		height: 20px;
+		padding-top: 20px;
+	}
+	
+	section.cadre{
+	padding: 30px 30px 10px 30px;
+	}
+
+	h3.titre{
+	font-size: 35px;
+	}	
+
+	h3.ligne{
+	width: 30%;
+	font-size: 20px;
+	}
+
+	div.fin{
+	padding-top: 20px;
+	}
