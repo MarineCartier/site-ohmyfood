@@ -45,7 +45,7 @@ h2.titre{
 h3{
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	background: -webkit-linear-gradient(left, #3d923a, #beff7f);
   	-webkit-background-clip : text;
   	-webkit-text-fill-color : transparent;
@@ -135,6 +135,54 @@ div.effetwiggle:hover{ /* effet wiggle*/
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+h4.ligne1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 110px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne1:hover:after {
+    width: 27%;
+}
+
+h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 65px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne2:hover:after {
+    width: 57%;
+}
+
+h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 60px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne3:hover:after {
+    width: 60%;
+}
+
 @media only screen and (min-width: 960px){
 
 	div.lignes{
@@ -163,9 +211,26 @@ div.effetwiggle:hover{ /* effet wiggle*/
 
 	h4{
 	width: 30%;
-}	
+	}	
 	
 
 	div.fin{
 	padding-top: 20px;
 	}
+
+		h4.ligne:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 648px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+	}
+
+h4.ligne:hover:after {
+    width: 13%;
+	}
+}

@@ -3,7 +3,6 @@ html{
 }
 
 body{
-	margin: 10px;
 	padding: 0;
 	position: relative;
 }
@@ -15,11 +14,10 @@ header{
 	padding-bottom: 10px;
 }
 
-img.logo{
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	height: 100px;
+h1.logo{
+	font-size: 40px;
+	text-align: center;
+	color: #fdcb46;
 }
 
 img.ligne{
@@ -30,27 +28,40 @@ a{
 	text-decoration: none;
 }
 
-h1.titre{
+h1.logo{
 	text-align: center;
+}
+
+h2.titre{
+	text-align: center;
+}
+
+h3{
+	font-family: 'Devonshire', cursive;
+	font-size: 30px;
+	}
+
+.fas.fa-music{
+	background: -webkit-linear-gradient(left, #f05160, #f6916a);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+  	text-align: center;
+  	font-size: 50px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+p.plat{
+	width: 80%;
 }
 
 section.cadre{
 	background-color: #fcdfdb;
-	margin: 0px 20px 130px 20px;
-	padding: 20px 0px 20px 0px;
+	margin: 20px 20px 100px 20px;
+	padding: 20px 0px 10px 0px;
 	text-align: center;
-}
-
-.fas.fa-music{
-	font-size: 60px;
-	background: -webkit-linear-gradient(left, #f05160, #f6916a);
-  	-webkit-background-clip : text;
-  	-webkit-text-fill-color : transparent;
-}
-
-h2.titre{
-	font-family: 'Devonshire', cursive;
-	font-size: 30px;
 }
 
 ul{
@@ -62,10 +73,8 @@ ul{
 li{
 	display: flex;
 	text-align: justify;
-}
-
-p.plat{
-	width: 80%;
+	display: flex;
+	width: 100%;
 }
 
 p.prix{
@@ -73,23 +82,9 @@ p.prix{
 	text-align: right;
 }
 
-div.fin{
-	display: flex;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-i.fas.fa-music.fin{
-	width: 45%;
-	text-align: right;
-}
-
 p.titrefin{
 	font-family: 'Devonshire', cursive;
 	font-size: 30px;
-	width: 55%;
-	text-align: left;
 }
 
 footer.pieddepage{
@@ -106,10 +101,6 @@ footer.pieddepage{
 
 div.effetwiggle{
 	width: 100%;
-}
-
-div.mentionslegales{
-	width: 50%;
 }
 
 p.mentionslegales{
@@ -144,6 +135,54 @@ div.effetwiggle:hover{ /* effet wiggle*/
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+h4.ligne1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 115px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne1:hover:after {
+    width: 23%;
+}
+
+h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 92px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne2:hover:after {
+    width: 39%;
+}
+
+h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 75px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne3:hover:after {
+    width: 50%;
+}
+
 @media only screen and (min-width: 960px){
 
 	div.lignes{
@@ -156,10 +195,9 @@ div.effetwiggle:hover{ /* effet wiggle*/
 		height: 20px;
 		padding-top: 20px;
 	}
-
+	
 	section.cadre{
-		padding: 50px 30px 10px 30px;
-	    margin-bottom: 100px;
+	padding: 30px 30px 10px 30px;
 	}
 
 	h2.titre{
@@ -167,16 +205,32 @@ div.effetwiggle:hover{ /* effet wiggle*/
 	}	
 
 	h3.ligne{
+	width: 30%;
+	font-size: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	h4{
 		width: 30%;
-		font-size: 20px;
 	}
 
 	div.fin{
-		padding-top: 20px;
+	padding-top: 20px;
 	}
 
-	footer.pieddepage{
-		font-size: 30px;
-	}
+	h4.ligne:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 648px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
 
+h4.ligne:hover:after {
+    width: 13%;
 }

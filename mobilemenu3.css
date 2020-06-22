@@ -38,7 +38,7 @@ h2.titre{
 
 h3{
 	font-family: 'Dancing Script', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	background: -webkit-linear-gradient(left, #0228dd, #229df9);
   	-webkit-background-clip : text;
   	-webkit-text-fill-color : transparent;
@@ -128,20 +128,52 @@ div.effetwiggle:hover{ /* effet wiggle*/
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-h4.ligne:after {
+h4.ligne1:after {
     content: '';
     display: block;
     position: absolute;
     height: 1px;
     width: 0;
     margin: auto;
-    left: 70px;
+    left: 68px;
     background: #000000;
     transition: width .5s ease-in-out;
 }
 
-h4.ligne:hover:after {
-    width: 53%;
+h4.ligne1:hover:after {
+    width: 55%;
+}
+
+h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 75px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne2:hover:after {
+    width: 50%;
+}
+
+h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 75px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne3:hover:after {
+    width: 50%;
 }
 
 @media only screen and (min-width: 960px){
@@ -165,9 +197,9 @@ h4.ligne:hover:after {
 		font-size: 35px;
 	}	
 
-	h3.ligne{
+	h3{
 	width: 30%;
-	font-size: 30px;
+	font-size: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	}
@@ -187,11 +219,11 @@ h4.ligne:hover:after {
     height: 2px;
     width: 0;
     margin: auto;
-    left: 448px;
+    left: 648px;
     background: #000000;
     transition: width .5s ease-in-out;
 }
 
 h4.ligne:hover:after {
-    width: 16%;
+    width: 13%;
 }

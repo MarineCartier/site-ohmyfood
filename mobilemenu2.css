@@ -3,7 +3,6 @@ html{
 }
 
 body{
-	margin: 10px;
 	padding: 0;
 	position: relative;
 }
@@ -15,11 +14,10 @@ header{
 	padding-bottom: 10px;
 }
 
-img.logo{
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	height: 100px;
+h1.logo{
+	font-size: 40px;
+	text-align: center;
+	color: #fdcb46;
 }
 
 img.ligne{
@@ -30,30 +28,36 @@ a{
 	text-decoration: none;
 }
 
-h1{
+h1.logo{
 	text-align: center;
 }
 
-h2{
-	font-family: 'Croissant One', cursive;
-	font-size: 30px;
-	background: -webkit-linear-gradient(left, #c67412, #6e4ccc);
-  	-webkit-background-clip : text;
-  	-webkit-text-fill-color : transparent;
+h2.titre{
+	text-align: center;
 }
 
 h3{
+	font-family: 'Croissant One', cursive;
+	font-size: 20px;
+	background: -webkit-linear-gradient(left, #c67412, #6e4ccc);
+  	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+  	text-align: center;
+}
+
+h4{
 	font-family: 'Slabo 27px', serif;
 	font-size: 20px;
 }
 
 p.plat{
 	font-family: 'Slabo 27px', serif;
+	width: 80%;
 }
 
 section.cadre{
 	background-color: #fff5fe;
-	margin: 20px 20px 130px 20px;
+	margin: 20px 20px 100px 20px;
 	padding: 20px 0px 10px 0px;
 	text-align: center;
 }
@@ -69,10 +73,6 @@ li{
 	text-align: justify;
 	display: flex;
 	width: 100%;
-}
-
-p.plat{
-	width: 80%;
 }
 
 p.prix{
@@ -128,6 +128,54 @@ div.effetwiggle:hover{ /* effet wiggle*/
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+h4.ligne1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 50px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne1:hover:after {
+    width: 67%;
+}
+
+h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 75px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne2:hover:after {
+    width: 50%;
+}
+
+h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    margin: auto;
+    left: 60px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne3:hover:after {
+    width: 61%;
+}
+
 @media only screen and (min-width: 960px){
 
 	div.lignes{
@@ -145,15 +193,37 @@ div.effetwiggle:hover{ /* effet wiggle*/
 	padding: 30px 30px 10px 30px;
 	}
 
-	h3.titre{
-	font-size: 35px;
+	h2.titre{
+		font-size: 35px;
 	}	
 
 	h3.ligne{
 	width: 30%;
-	font-size: 20px;
+	font-size: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	h4{
+		width: 30%;
 	}
 
 	div.fin{
 	padding-top: 20px;
 	}
+
+	h4.ligne:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 648px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+}
+
+h4.ligne:hover:after {
+    width: 13%;
+}
