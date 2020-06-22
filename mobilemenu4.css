@@ -62,6 +62,10 @@ p.plat{
 	width: 80%;
 }
 
+p.prix{
+	font-family: 'Architects Daughter', cursive;
+}
+
 section.cadre{
 	background-color: #fdfffd;
 	margin: 20px 20px 100px 20px;
@@ -105,6 +109,7 @@ div.effetwiggle{
 
 p.mentionslegales{
 	margin-left: 10px;
+	color: #fdcb46;
 }
 
 div.mail{
@@ -218,19 +223,52 @@ h4.ligne3:hover:after {
 	padding-top: 20px;
 	}
 
-		h4.ligne:after {
+	h4.ligne1:after {
     content: '';
     display: block;
     position: absolute;
     height: 2px;
     width: 0;
     margin: auto;
-    left: 648px;
+    left: 705px;
     background: #000000;
     transition: width .5s ease-in-out;
 	}
 
-h4.ligne:hover:after {
-    width: 13%;
+	h4.ligne1:hover:after {
+    width: 6%;
+ 	}
+
+ 	h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 665px;
+    background: #000000;
+    transition: width .5s ease-in-out;
 	}
+
+	h4.ligne2:hover:after {
+    width: 11%;
+ 	}
+
+ 	h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 660px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+	}
+
+	h4.ligne3:hover:after {
+    width: 12%;
+ 	}
+
 }

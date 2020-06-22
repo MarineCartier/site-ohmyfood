@@ -51,6 +51,7 @@ h3{
 
 h4{
 	font-size: 20px;
+	font-family: 'Architects Daughter', cursive;
 }
 
 p.plat{
@@ -82,6 +83,10 @@ p.prix{
 	text-align: right;
 }
 
+ul{
+	font-family: 'Architects Daughter', cursive;
+}
+
 p.titrefin{
 	font-family: 'Devonshire', cursive;
 	font-size: 30px;
@@ -105,6 +110,7 @@ div.effetwiggle{
 
 p.mentionslegales{
 	margin-left: 10px;
+	color: #fdcb46;
 }
 
 div.mail{
@@ -204,9 +210,9 @@ h4.ligne3:hover:after {
 		font-size: 35px;
 	}	
 
-	h3.ligne{
+	h3{
 	width: 30%;
-	font-size: 30px;
+	font-size: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	}
@@ -219,18 +225,51 @@ h4.ligne3:hover:after {
 	padding-top: 20px;
 	}
 
-	h4.ligne:after {
+	h4.ligne1:after {
     content: '';
     display: block;
     position: absolute;
     height: 2px;
     width: 0;
     margin: auto;
-    left: 648px;
+    left: 715px;
     background: #000000;
     transition: width .5s ease-in-out;
-}
+	}
 
-h4.ligne:hover:after {
-    width: 13%;
+	h4.ligne1:hover:after {
+    width: 5%;
+ 	}
+
+ 	h4.ligne2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 690px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+	}
+
+	h4.ligne2:hover:after {
+    width: 8%;
+ 	}
+
+ 	h4.ligne3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    left: 675px;
+    background: #000000;
+    transition: width .5s ease-in-out;
+	}
+
+	h4.ligne3:hover:after {
+    width: 10%;
+ 	}
 }

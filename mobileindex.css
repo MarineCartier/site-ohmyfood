@@ -52,7 +52,6 @@ article.menu1{
 	text-transform: uppercase;
 }
 
-
 article.menu2{
 	background-color: #fff5fe;
 	margin: 40px 50px 20px 50px;
@@ -150,6 +149,7 @@ div.effetwiggle{
 
 p.mentionslegales{
 	margin-left: 10px;
+	color: #fdcb46;
 }
 
 div.mail{
